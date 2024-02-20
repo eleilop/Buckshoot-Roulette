@@ -1,18 +1,7 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# 💥 BUCKSHOOT ROULETTE 💥
+<p>Buckshoot Roulette es un juego basado en la ruleta rusa pero<br>cambiando ciertos aspectos sobre las balas.</p>
+<p>La escopeta se recargará con un orden aleatorio y una cantidad<br>aleatoria de balas (entre 2 y 8) habiendo siempre mínimo una<br>bala <span style="color:red; font-size:20px;">ROJA</span> y una bala AZUL.</p>
+<p>Las balas ROJAS quitan 1 vida.<br>Las balas AZULES NO quitan vidas.</p>
+<p>En el caso de disparar al contrincante el siguiente turno será suyo.</p>
+<p>En el caso de dispararte a tí mismo el siguiente turno será tuyo<br>siempre y cuando la bala disparada no sea ROJA.</p>
+<p>Ganará el jugador que consiga que su contrincante pierda sus 3 VIDAS.</p>
